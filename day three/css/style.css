@@ -1,0 +1,319 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.widget {
+    height: 1000px;
+    width: 100%;
+    background: url(./images/annie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.col_one {
+    height: 80px;
+    width: 38px;
+    position: absolute;
+    left: 155px;
+}
+
+.col_one img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.Row_one {
+    height: 80px;
+    width: 131px;
+    position: absolute;
+}
+
+.Row_one img {
+    width: 131px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Row_two {
+    height: 80px;
+    width: 1097.02px;
+
+    position: relative;
+    left: 220px;
+    float: left;
+
+}
+
+.col_1 {
+    height: 80px;
+    width: 152.44px;
+    position: absolute;
+    left: 0%;
+    float: left;
+}
+
+.col_1 h6 {
+    font-style: normal;
+    font-size: 11px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.col_2 {
+    height: 80px;
+    width: 200px;
+    position: absolute;
+    left: 100px;
+    ;
+    float: left;
+}
+
+.col_2 h6 {
+    font-style: normal;
+    font-size: 11px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.col_3 {
+    height: 80px;
+    width: 50px;
+    position: absolute;
+    left: 280px;
+    float: left;
+}
+
+.col_3 h6 {
+    font-style: normal;
+    font-size: 11px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.Row_three {
+    height: 80px;
+    width: 268px;
+    float: left;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.Row_three_col_one {
+    height: 30px;
+    width: 200px;
+    border: 1px black;
+    border-radius: 17px;
+    background: hwb(0 0% 100% / 0.425);
+    position: absolute;
+    top: 25px;
+    left: -15px;
+
+}
+
+.Row_three_col_one h6 {
+    font-size: 11px;
+    font-size: normal;
+    padding-left: 18px;
+    padding-top: 8px;
+    float: left;
+    color: white;
+
+}
+
+.Row_three_col_one img {
+    height: 31px;
+    width: 31px;
+    border-radius: 5px;
+    padding-left: 95px;
+    padding-top: 0px;
+    float: left;
+}
+
+.Row_three_col_two {
+    height: 30px;
+    width: 79px;
+    border-radius: 17px;
+    background: red;
+    position: absolute;
+    top: 25px;
+    left: 189px;
+}
+
+.Row_three_col_two h6 {
+    height: 14px;
+    width: 43px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.content{
+    height: 400px;
+    width: 1586px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.content img {
+    height: 249px;
+    width: 500px;
+    position: absolute;
+    left: 0px;
+}
+.text_one {
+    height: 50px;
+    width: 409px;
+    position: absolute;
+    top: 547px;
+    left: 206px;
+}
+.text_one p{
+    font: 1em sans-serif;
+    color: rgb(233, 104, 29);
+}
+.images_one {
+    height: 54px;
+    width: 283px;
+    border-radius: 18px;
+    background: #1DA6D1;
+    position: absolute;
+    top: 600px;
+    left: 206px;
+}
+.images_one img {
+    height: 54px;
+    position: absolute;
+    border-radius: 18px;
+}
+
+
+
+
+.middle_row {
+    height: 842px;
+    width: 100%;
+    position: relative;
+    background: #0A2D33;
+}
+.whats_happening_title {
+    height: 72px;
+    width: 1379px;
+    position: absolute;
+    /* background: white; */
+    top: 60px;
+    left: 30px;
+    right: 30px;
+    bottom: 60px;
+}
+.whats_happening_title h6{
+    font-size: 50px;
+    font-style: normal;
+    color: white;
+
+}
+.seemore {
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top: 80px;
+    left: 1429px;
+    right: 10px;
+    bottom: 60px;
+    background: rgba(48, 47, 47, 0.767);
+    border-radius: 6px;
+}
+.seemore h6 {
+    font-size: 13px;
+    font-size: normal;
+    color: white;
+    padding-top: 7px;
+    padding-left: 15px;
+}
+.Theme {
+    height: 420.59px;
+    width: 842px;
+    background: url(../css/images/making-of-a-champ-theme-16x9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    position: absolute;
+    top: 224px;
+    left: 29px;
+}
+.head_champ{
+    height: 100px;
+    width: 800px;
+    position: absolute;
+    top: 286px;
+    left: 10px;
+}
+.head_champ h6{
+    font-size: 39px;
+    color: white;
+
+}
+.bottom_title {
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    top: 379px;
+    left: 38px;
+}
+.bottom_title h1{
+    font-size: 13px;
+    color: gray;
+}
+.artical_1 {
+    height: 120px;
+    width: 674.8px;
+    background: url(../css/images/Screenshot_2.png);
+    position: absolute;
+    top: 224px;
+    left: 901px;
+    border-radius: 10px;
+}
+.artical_2 {
+    height: 120px;
+    width: 674.8px;
+    background: url(../css/images/Screenshot_3.png);
+    position: absolute;
+    top: 352px;
+    left: 901px;
+    border-radius: 10px;
+}
+.artical_3 {
+    height: 120px;
+    width: 674.8px;
+    background: url(../css/images/Screenshot_4.png);
+    position: absolute;
+    top: 481px;
+    left: 901px;
+    border-radius: 10px;
+}
+.artical_4 {
+    height: 120px;
+    width: 674.8px;
+    background: url(../css/images/Screenshot_5.png);
+    position: absolute;
+    top: 609px;
+    left: 901px;
+    border-radius: 10px;
+}
